@@ -116,8 +116,10 @@ body {
   }
 
   @media screen and (max-width: 660px) {
+    
     .name{
         width: auto;
+        height: auto;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
@@ -126,6 +128,10 @@ body {
     .image img{
         width:100%;
         height: auto;
-        margin-right: 0;
+        margin-right: 0; 
+   }
+
+   .right{
+       padding-left: 0;
    }
   }
