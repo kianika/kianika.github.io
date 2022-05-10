@@ -64,13 +64,14 @@ body {
       background-color: #eea7e9;
       animation-name: ex;
       animation-duration: 5s;
-    display: flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 }
 .name{
     display: flex;
+    width: 60%;
+  
   
 }
 
@@ -115,6 +116,7 @@ body {
 
   @media screen and (max-width: 660px) {
     .name{
+        width: auto;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
